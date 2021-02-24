@@ -165,3 +165,9 @@ id = "medium"
 url = "https://medium.com/@%s"
 title = "Medium"
 icon = "fab fa-medium"
+
+[[social_icons]]
+id = "discord"
+url = "https://discord.gg/%s"
+title = "Discord"
+icon = "fab fa-discord"
