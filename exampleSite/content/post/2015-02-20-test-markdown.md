@@ -12,14 +12,14 @@ You can write regular [markdown](http://markdowntutorial.com/) here and [Hugo](h
 ## Here is a secondary heading
 
 Here's a useless table:
- 
+
 | Number | Next number | Previous number |
 | :------ |:--- | :--- |
 | Five | Six | Four |
 | Ten | Eleven | Nine |
 | Seven | Eight | Six |
 | Two | Three | One |
- 
+
 
 How about a yummy crepe?
 

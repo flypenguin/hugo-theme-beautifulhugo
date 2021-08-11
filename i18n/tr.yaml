@@ -67,7 +67,7 @@
 - id: show
   translation: "Göster"
 - id: comments
-  translation: "yorumlar" 
+  translation: "yorumlar"
 
 # Related posts
 - id: seeAlso

@@ -67,7 +67,7 @@
 - id: show
   translation: "Pokaži"
 - id: comments
-  translation: "komentari" 
+  translation: "komentari"
 
 # Related posts
 - id: seeAlso
