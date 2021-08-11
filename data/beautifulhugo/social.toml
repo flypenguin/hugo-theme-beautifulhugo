@@ -48,7 +48,13 @@ icon = "fab fa-reddit-alien"
 
 [[social_icons]]
 id = "linkedin"
-url = "https://linkedin.com/in/%s"
+url = "https://www.linkedin.com/in/%s"
+title = "LinkedIn"
+icon = "fab fa-linkedin"
+
+[[social_icons]]
+id = "linkedin_company"
+url = "https://www.linkedin.com/company/%s"
 title = "LinkedIn"
 icon = "fab fa-linkedin"
 

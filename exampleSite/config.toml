@@ -55,6 +55,7 @@ pygmentsCodefencesGuessSyntax = true
   twitter = "username"
   reddit = "username"
   linkedin = "username"
+  linkedin_company = "companyname"
   xing = "username"
   stackoverflow = "users/XXXXXXX/username"
   snapchat = "username"
