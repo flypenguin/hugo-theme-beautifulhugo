@@ -1,36 +1,36 @@
-.staticman-comments {
+.comments-staticman {
   padding: 20px 0px 0px 0px;
 }
 
-.staticman-comments .comment-content{
+.comments-staticman .comment-content{
   border-top: 1px solid #EEEEEE;
   padding: 4px 0px 30px 0px;
 }
 
-.staticman-comments .comment-content p {
+.comments-staticman .comment-content p {
   padding: 5px 0px 5px 0px;
   margin: 5px 58px 0px 58px;
 }
 
-.staticman-comments .textfield {
+.comments-staticman .textfield {
     width: 420px;
     max-width: 100%;
     padding: 0.5rem 0;
     width: 100%;
 }
 
-.staticman-comments input {
+.comments-staticman input {
     border: 1px solid rgba(0,0,0,0.12);
     padding: 4px 5px;
     width: 100%;
 }
 
 
-.staticman-comments .g-recaptcha {
+.comments-staticman .g-recaptcha {
     padding: 0.5rem 0;
 }
 
-.staticman-comments textarea {
+.comments-staticman textarea {
     border: 1px solid rgba(0,0,0,0.12);
     padding: 4px 5px;
     vertical-align: top;
@@ -38,19 +38,19 @@
     width: 100%;
 }
 
-.staticman-comments .comment-avatar {
+.comments-staticman .comment-avatar {
   float:left;
   width: 48;
   height: 48;
   margin-right: 10px;
 }
 
-.staticman-comments .show-modal {
+.comments-staticman .show-modal {
 	overflow: hidden;
 	position: relative;
 }
 
-.staticman-comments .show-modal:before {
+.comments-staticman .show-modal:before {
 	position: absolute;
 	content: '';
 	top: 0;
