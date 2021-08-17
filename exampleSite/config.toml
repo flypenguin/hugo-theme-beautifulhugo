@@ -38,8 +38,8 @@ pygmentsCodefencesGuessSyntax = true
   url = "https://remark42.mydomain.com"         # required
   #locale = "fr"                                 # default: "en"
   #max_comments = 5                              # default: 15
-  #theme = "dark"                                # "dark" / "light"
   #simple_view = false                           # false / true
+  #theme = "dark"                                # "dark" / "light"
 
 #[[Params.bigimg]]
 #  src = "img/triangle.jpg"
