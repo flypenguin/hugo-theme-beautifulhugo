@@ -159,7 +159,7 @@ $(function(){
 <!-- End Delayed Disqus -->
 {{ end }}
 
-{{- if and .Site.Params.remark42.enable }}
+{{- if (and .Site.Params.remark42.enable .Site.Params.comments) }}
 <!-- remark42 commenting -->
 {{ partial "comments-remark42-js.html" . }}
 {{- end }}
