@@ -12,8 +12,8 @@
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
-        {{ range .Site.Menus.main.ByWeight }}
-          {{ if .HasChildren }}
+        {{- range .Site.Menus.main.ByWeight }}
+          {{- if .HasChildren }}
             <li class="navlinks-container">
               <a class="navlinks-parent">{{ .Name }}</a>
               <div class="navlinks-children">
@@ -22,35 +22,33 @@
                 {{ end }}
               </div>
             </li>
-          {{ else }}
-            <li>
-              <a title="{{ .Name }}" href="{{ .URL  | relLangURL }}">{{ .Name }}</a>
-            </li>
-          {{ end }}
-        {{ end }}
+          {{- else }}
+            <li><a title="{{ .Name }}" href="{{ .URL  | relLangURL }}">{{ .Name }}</a></li>
+          {{- end }}
+        {{- end }}
 
-        {{ if .Site.IsMultiLingual }}
-          {{ if ge (len .Site.Languages) 3 }}
+        {{- if .Site.IsMultiLingual }}
+          {{- if ge (len .Site.Languages) 3 }}
             <li class="navlinks-container">
               <a class="navlinks-parent">{{ i18n "languageSwitcherLabel" }}</a>
               <div class="navlinks-children">
                 {{ range .Site.Languages }}
                   {{ if not (eq .Lang $.Site.Language.Lang) }}
                   <a href="/{{ .Lang }}" lang="{{ .Lang }}">{{ default .Lang .LanguageName }}</a>
-                  {{ end }}
-                {{ end }}
+                  {{- end }}
+                {{- end }}
               </div>
             </li>
-          {{ else }}
+          {{- else }}
             <li>
-              {{ range .Site.Languages }}
-                {{ if not (eq .Lang $.Site.Language.Lang) }}
+              {{- range .Site.Languages }}
+                {{- if not (eq .Lang $.Site.Language.Lang) }}
                   <a href="/{{ .Lang }}" lang="{{ .Lang }}">{{ default .Lang .LanguageName }}</a>
-                {{ end }}
-              {{ end }}
+                {{- end }}
+              {{- end }}
             </li>
-          {{ end }}
-        {{ end }}
+          {{- end }}
+        {{- end }}
 
         {{ if isset .Site.Params "gcse" }}
           <li>
@@ -62,7 +60,7 @@
       </ul>
     </div>
 
-    {{ if isset .Site.Params "logo" }}
+    {{- if isset .Site.Params "logo" }}
       <div class="avatar-container">
         <div class="avatar-img-border">
           <a title="{{ .Site.Title }}" href="{{ "" | absLangURL }}">
@@ -70,7 +68,7 @@
           </a>
         </div>
       </div>
-    {{ end }}
+    {{- end }}
 
   </div>
 </nav>
