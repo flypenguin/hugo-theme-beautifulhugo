@@ -159,4 +159,10 @@ $(function(){
 <!-- End Delayed Disqus -->
 {{ end }}
 
+{{- if and .Site.Params.remark42.enable }}
+<!-- remark42 commenting -->
+{{ partial "comments-remark42-js.html" . }}
+{{- end }}
+
+
 {{- partial "footer_custom.html" . }}

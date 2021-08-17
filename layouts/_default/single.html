@@ -74,6 +74,12 @@
           </div>
         {{- end }}
 
+        {{- if .Site.Params.remark42.enable }}
+        <div class="comments-remark42">
+          {{ partial "comments-remark42.html" . }}
+        </div>
+        {{- end }}
+      </div>
       {{- end }}
 
     </div>
